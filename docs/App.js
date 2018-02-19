@@ -25,14 +25,18 @@ class App extends Component {
                   <NavLink className="nav-link" to="/">HJEM</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" to="/moterom-info">MØTEROM INFO</NavLink>
+                  <NavLink className="nav-link" to="/moterom-info">INFO OM MØTEROM</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" to="/components">BOOKING</NavLink>
+                  <NavLink className="nav-link" to="/components">INFO OM UTSTILLING</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" to="/javascript">KONTAKT</NavLink>
+                  <NavLink className="nav-link" to="/javascript">BOOK MØTEROM</NavLink>
                 </NavItem>
+                  <NavItem>
+                      <NavLink className="nav-link" to="/javascript">BOOK BRIEFING</NavLink>
+                  </NavItem>
+
               </NavbarNav>
 
             </div>
