@@ -27,6 +27,7 @@ import FooterPage from './pages/FooterPage';
 import MasksPage from './pages/MasksPage';
 import DropdownPage from './pages/DropdownPage';
 import VideoCarouselPage from './pages/VideoCarouselPage';
+import MoteromInfo from './pages/MoteromInfo';
 
 class Routes extends React.Component {
   render() {
@@ -34,6 +35,7 @@ class Routes extends React.Component {
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route exact path='/css' component={CSSPage} />
+        <Route path='/moterom-info' component={MoteromInfo} />
         <Route exact path='/css/table' component={TablePage} />
         <Route exact path='/components' component={ComponentsPage} />
         <Route path='/components/badge' component={BadgePage} />
@@ -57,8 +59,10 @@ class Routes extends React.Component {
         <Route path='/javascript/modal' component={ModalPage} />
         <Route path='/javascript/carousel' component={CarouselPage} />
         <Route path='/javascript/collapse' component={CollapsePage} />
-        <Route path='/javascript/videocarousel' component={VideoCarouselPage} />        
+        <Route path='/javascript/videocarousel' component={VideoCarouselPage} />
         <Route path='/css/masks' component={MasksPage} />
+
+
         <Route render = { function() {
           return <h1>Not Found</h1>;
         }} />
